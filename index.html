@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Devoir</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <div class="EcranJeu">
+    <div class="EcranUn">
+      <center class="Joueur"> JOUEUR </center>
+      <div class="EmojiUn">✊</div>
+    </div>
+    <div class="EcranDeux">
+      <center class="Robot"> CPU </center>
+      <div class="EmojiDeux">✋🏻</div>
+    </div>
+    <div class="Resultat"> VICTOIRE </div>
+    <button class="Rejouer"> Rejouer </button>
+  </div>
+  
+<form class="Formulaire">
+   <label>Nom :</label>
+    <input class="Nom" type="text"> </br>
+  <label>Peau :</label> 
+    <div class="Peau">
+      <label><input type="radio" name="PeauChoixA">👋</label>
+      <label><input type="radio" name="PeauChoixB">👋🏻</label>
+      <label><input type="radio" name="PeauChoixC">👋🏽</label>
+      <label><input type="radio" name="PeauChoixD">👋🏿</label>
+  </div></br>
+   <label>Choix :</label>
+    <select class="Choix">
+      <option value="Roche">🥔</option>
+      <option value="Papier">📄</option>
+      <option value="Ciseaux">✂️</option>
+    </select></br>
+    <button class="Jouer" onclick="myFunction()"> Jouer </button>
+</form> 
+
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

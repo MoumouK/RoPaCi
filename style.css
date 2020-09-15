@@ -1,0 +1,111 @@
+html{
+  height:100%;
+}
+
+body{
+  background-color:#272635;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  width:100%;
+  height:100%;
+  margin:0;
+}
+
+.Formulaire{
+  display: flex;
+  justify-content:center;
+  flex-direction:column;
+  background-color: #F0BCD4;
+  width: 280px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.Nom{
+  height: 40px;
+  border-radius: 20px;
+  border-style :none;
+  opacity:0.5;
+  -webkit-appearance: none;
+  outline:none;
+}
+
+.Choix{
+  height: 40px;
+  border-radius: 20px;
+  border-style :none;
+  opacity:0.5;
+  -webkit-appearance: none;
+  outline:none;
+}
+
+.Peau{
+  display:flex;
+  justify-content :space-between;
+}
+
+.Jouer{
+  height: 40px;
+  border-radius: 20px;
+  border-style :none;
+}
+
+.EcranJeu {
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  font-size: 60px;
+  color: white;
+  display:none;
+}
+
+.EcranUn{
+  width:50%;
+  background-color:#D16D82;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.Joueur{
+  position:absolute;
+  top:0;
+}
+
+.EmojiUn{
+  font-size: 200px;
+}
+
+.EcranDeux {
+  width:50%;
+  background-color:#7FD8BE;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.Robot{
+  position:absolute;
+  top:0;
+}
+
+.EmojiDeux{
+  font-size: 200px;
+}
+
+.Resultat{
+  position:absolute;
+  bottom:80px;
+}
+
+.Rejouer{
+  position:absolute;
+  height: 40px;
+  width:200px;
+  border-radius: 20px;
+  border-style :none;
+  bottom:20px;
+  outline:none;
+}
