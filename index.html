@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Devoir</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <div class="EcranJeu">
+    <div class="EcranUn">
+      <center class="Joueur"> JOUEUR </center>
+      <div class="EmojiUn">✊</div>
+    </div>
+    <div class="EcranDeux">
+      <center class="Robot"> CPU </center>
+      <div class="EmojiDeux">✋🏻</div>
+    </div>
+    <div class="Resultat"> VICTOIRE </div>
+    <button class="Rejouer"> Rejouer </button>
+  </div>
+  
+<form class="Formulaire">
+   <label>Nom :</label>
+    <input class="Nom" type="text"> </br>
+  <label>Peau :</label> 
+    <div class="Peau">
+      <label><input type="radio" name="PeauChoix" value="👋">👋</label>
+      <label><input type="radio" name="PeauChoix" value="👋🏻">👋🏻</label>
+      <label><input type="radio" name="PeauChoix" value="👋🏽">👋🏽</label>      
+      <label><input type="radio" name="PeauChoix" value="👋🏿" checked>👋🏿</label>
+  </div></br>
+   <label>Choix :</label>
+    <select class="Choix">
+      <option value="Roche">🥔</option>
+      <option value="Papier">📄</option>
+      <option value="Ciseaux">✂️</option>
+    </select></br>
+    <button class="Jouer"> Jouer </button>
+</form> 
+</body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
