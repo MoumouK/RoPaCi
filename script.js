@@ -1,1 +1,0 @@
-var Nom = document.querySelector('.Nom').innerHTML
